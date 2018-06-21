@@ -1,0 +1,32 @@
+{
+  "name": "iDeb-web",
+  "version": "1.0.0",
+  "description": "Intermodal Direct Electronic Booking",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnenaVictoriaSims/iDeb.git"
+  },
+  "author": "Anena Sims",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnenaVictoriaSims/iDeb/issues"
+  },
+  "homepage": "https://github.com/AnenaVictoriaSims/iDeb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "firebase": "^4.6.1",
+    "google-translate-api": "^2.3.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "devDependencies": {}
+}
